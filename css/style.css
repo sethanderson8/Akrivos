@@ -158,11 +158,21 @@ strong {
 }
 
 .nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-size: 1.3rem;
   font-weight: 800;
   letter-spacing: -0.03em;
   color: var(--text);
   text-decoration: none;
+}
+
+.nav-logo {
+  height: 36px;
+  width: auto;
+  mask-image: radial-gradient(ellipse 95% 95% at center, black 40%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 95% 95% at center, black 40%, transparent 100%);
 }
 
 .nav-brand:hover {
@@ -633,6 +643,15 @@ strong {
   max-width: 720px;
   margin: 0 auto;
   padding: 0 1.5rem;
+}
+
+.hero-logo {
+  display: block;
+  height: 300px;
+  width: auto;
+  margin: 0 auto 0.75rem;
+  mask-image: radial-gradient(ellipse 75% 80% at center, black 25%, transparent 60%);
+  -webkit-mask-image: radial-gradient(ellipse 75% 80% at center, black 25%, transparent 60%);
 }
 
 .about-content p {
