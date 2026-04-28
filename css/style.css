@@ -243,7 +243,7 @@ strong {
 /* Hero Sections */
 .hero {
   position: relative;
-  padding: 5rem 1.5rem 4rem;
+  padding: 4rem 1.5rem 2.5rem;
   text-align: center;
   overflow: hidden;
 }
@@ -365,7 +365,7 @@ strong {
 
 /* Sections */
 .section {
-  padding: 5rem 1.5rem;
+  padding: 3.5rem 1.5rem;
 }
 
 .section-alt {
@@ -486,6 +486,14 @@ strong {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.products-grid:has(> :only-child) {
+  grid-template-columns: minmax(280px, 360px);
+  justify-content: center;
 }
 
 .product-card {
@@ -647,9 +655,9 @@ strong {
 
 .hero-logo {
   display: block;
-  height: 300px;
+  height: 220px;
   width: auto;
-  margin: 0 auto 0.75rem;
+  margin: 0 auto 0.5rem;
   mask-image: radial-gradient(ellipse 75% 80% at center, black 25%, transparent 60%);
   -webkit-mask-image: radial-gradient(ellipse 75% 80% at center, black 25%, transparent 60%);
 }
@@ -684,7 +692,7 @@ strong {
 
 /* Donate Page */
 .donate-hero {
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .donate-content {
