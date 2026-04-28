@@ -662,6 +662,16 @@ strong {
   -webkit-mask-image: radial-gradient(ellipse 75% 80% at center, black 25%, transparent 60%);
 }
 
+.hero-banner {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  margin: 0 auto 1rem;
+  mask-image: radial-gradient(ellipse 80% 75% at center, black 35%, rgba(0,0,0,0.55) 50%, transparent 60%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 75% at center, black 35%, rgba(0,0,0,0.55) 50%, transparent 60%);
+}
+
 .about-content p {
   font-size: 1.02rem;
   line-height: 1.85;
