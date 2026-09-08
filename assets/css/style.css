@@ -565,6 +565,53 @@ strong {
   margin-top: 0.75rem;
 }
 
+.product-card .product-pricing {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+/* Released app icon (replaces the placeholder .product-icon on released entries) */
+.product-app-icon {
+  width: 112px;
+  height: 112px;
+  border-radius: 25px; /* ~22% of size, matches modern app-icon corner rounding */
+  margin: 0 auto 1.25rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+}
+
+/* Store badges - official Apple / Google artwork, unmodified */
+.store-badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.store-badges a {
+  display: inline-flex;
+  line-height: 0;
+  transition: opacity var(--ease);
+}
+
+.store-badges a:hover {
+  opacity: 0.85;
+}
+
+/* Apple badge: 40px is Apple's minimum height */
+.store-badge-apple {
+  height: 40px;
+  width: auto;
+}
+
+/* Google badge PNG includes built-in clear space; 60px total puts its visible badge at 40px to match Apple */
+.store-badge-google {
+  height: 60px;
+  width: auto;
+}
+
 .products-note {
   text-align: center;
   color: var(--text-muted);
